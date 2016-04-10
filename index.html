@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+    	Weather App
+  	</title>
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Oleo Script">
+  	<link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Boogaloo">
+</head>
+<body>
+	<div class="row" id="content">
+    <div class="col-lg-12" id="weather">
+       <h1 id="app-title">Weather App - 
+         <a id="camp" href="https://www.freecodecamp.com" target="_blank" >Free Code Camp</a></h1>
+       <div id="map">
+       </div>
+       <p id="city">City, Country</p>
+      <p id="temp"><span id="temp-nr">20</span> <sup>o</sup><span id="unit">C</span></p>
+       <img id="weather-img" src="" alt="Not available" />
+       <footer>
+        <p>Made by <a id="developer" href="https://www.freecodecamp.com/claudiuvasile13" target="_blank">Claudiu Vasile</a></p>
+       </footer>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="js/functionality.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+</body>
+</html>

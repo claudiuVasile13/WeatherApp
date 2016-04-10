@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+#content {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/dark-gray.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#weather {
+  border: 1px solid red;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#app-title {
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  color: #fff;
+  font-family: Oleo Script;
+}
+
+#camp {
+  color: green;
+}
+
+#map {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #fff;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#city {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  font-family: Boogaloo;
+  font-size: 25px;
+/*   border: 1px solid red; */
+}
+
+#temp {
+  color: #fff;
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+/*   margin-top: 15px; */
+  font-family: Boogaloo;
+/*   border: 1px solid red; */
+}
+
+#unit {
+  color: green;
+  cursor: pointer;
+}
+
+#unit:hover {
+  color: #0E494E;
+}
+
+#weather-img {
+  color: #fff;
+  font-family: Boogaloo;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+footer p {
+  color: #fff;
+  font-family: Boogaloo;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+#developer {
+  color: green;
+}
+
+#camp:hover, #developer:hover {
+  color: #0E494E;
+}
+
+@media screen and (max-height: 600px) {
+  #content {
+    height: 600px;
+  }
+}
